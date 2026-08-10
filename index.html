@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover,user-scalable=0" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <title>Dodge Rush</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="ui">
+    <div id="top">
+      <div id="scoreWrap">
+        <div id="score">0</div>
+        <div id="high">HI 0</div>
+      </div>
+      <div id="combo">x1</div>
+    </div>
+    <div id="instructions">Move: touch / drag or WASD / arrows — Survive!</div>
+  </div>
+  <canvas id="game" tabindex="0"></canvas>
+  <div id="overlay" class="hidden" aria-hidden="true">
+    <div id="overlayCard">
+      <div id="finalScore">0</div>
+      <div id="finalText">Tap / Space to Restart</div>
+    </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
